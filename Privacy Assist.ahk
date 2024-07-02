@@ -63,7 +63,7 @@ else if (GettinStatus = 4) {
 
 }
 else {
-	MsgBox "Expected Value could NOT be found.`nPlease must check Registry editor manually."
+	MsgBox "Expected Value could NOT be found.`nPlease check Registry editor manually."
 	Exit
 }
 
