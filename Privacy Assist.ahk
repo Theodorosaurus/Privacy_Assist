@@ -60,14 +60,6 @@ else {
 	MyGui.Show("w300 h150")
 }
 
-star_ing_Scrpt(*) {
-
-If !(A_IsAdmin) {	
-	Run '*RunAs "Privacy Assist.ahk"'
-}
-
-}
-
 RR_Now(*) {
 
 Shutdown 6
@@ -105,7 +97,7 @@ else {
 Ca_mera_Change(*) {
 
 try {
-	star_ing_Scrpt	
+	Run '*RunAs "Privacy Assist.ahk"'	
 }
 catch {
 	Exit
